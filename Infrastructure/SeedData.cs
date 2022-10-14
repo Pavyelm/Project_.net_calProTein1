@@ -11,8 +11,9 @@ namespace CalProTein.Infrastructure
 
             if (!context.Products.Any())
             {
-                Category måltid = new Category { Name = "Måltid", Slug = "måltid" };
-                Category frukt = new Category { Name = "Frukt", Slug = "frukt" };
+                Category Produkt = new Category { Name = "Produkt", Slug = "produkt" };
+                Category Maltid = new Category { Name = "Måltid", Slug = "måltid" };
+                Category Snabbmat = new Category { Name = "Snabbmat", Slug = "Snabbmat" };
 
                 context.Products.AddRange(
                         new Product
@@ -22,10 +23,54 @@ namespace CalProTein.Infrastructure
                             Description = "proteinshasxke",
                             Cal = 170,
                             Protein = 30,
-                            Category = måltid,
+                            Category = Produkt
                            
-                        }
-                    
+                        },
+                          new Product
+                          {
+                              Name = "Cheseburger",
+                              Slug = "cheseburger",
+                              Description = "mcdonlads",
+                              Cal = 170,
+                              Protein = 30,
+                              Category = Snabbmat
+
+                          
+                           },
+                          new Product
+                          {
+                              Name = "Ägg",
+                              Slug = "ägg",
+                              Description = "ett ägg",
+                              Cal = 80,
+                              Protein = 7,
+                              Category = Produkt
+
+                          
+                           },
+                          new Product
+                          {
+                              Name = "KebabPizza",
+                              Slug = "kebbabpizza",
+                              Description = "kebab pizza",
+                              Cal = 2100,
+                              Protein = 132,
+                              Category = Maltid
+
+                          
+                           },
+                          new Product
+                          {
+                              Name = "Bigmac",
+                              Slug = "bigmac",
+                              Description = "mcdonalds",
+                              Cal = 500,
+                              Protein = 20,
+                              Category = Snabbmat
+
+
+
+                          }
 
 
                 );
