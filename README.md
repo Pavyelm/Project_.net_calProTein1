@@ -5,7 +5,7 @@
 
 ### Lunch;
 Run inside Visualstudio (optional update packages), there will be some items and categories added through seeData.cs and database setup thru migration.
-###Create an acount;
+### Create an acount;
 visit "http://localhost:5016/Account/Create" and fill out the form for access to the admin panel(where you add items).
 
 ## Demo IMG
