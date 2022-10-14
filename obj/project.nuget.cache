@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DrWd4s3OAdgnM6ptwjcWsmKasIY94GgYplt48hDqSdDhUcvdzbWhVMfsx4TiNn3fMHCEieAlzPI86DBn/nvhbQ==",
+  "dgSpecHash": "qqvMIlK2riq6l4+JWgM/WTTfgWT+11ch5tke9rl3HI1qdG/l6x5zsZq7efaLbiAfEghPo2C3SwY8Wi+hLMJ5Zg==",
   "success": true,
   "projectFilePath": "C:\\Users\\3 Fingrar\\source\\repos\\CalProtein\\CalProTein.csproj",
   "expectedPackageFiles": [
@@ -79,6 +79,8 @@
     "C:\\Users\\3 Fingrar\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\3 Fingrar\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\3 Fingrar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\3 Fingrar\\.nuget\\packages\\npgsql\\6.0.7\\npgsql.6.0.7.nupkg.sha512",
+    "C:\\Users\\3 Fingrar\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.7\\npgsql.entityframeworkcore.postgresql.6.0.7.nupkg.sha512",
     "C:\\Users\\3 Fingrar\\.nuget\\packages\\nuget.common\\6.2.1\\nuget.common.6.2.1.nupkg.sha512",
     "C:\\Users\\3 Fingrar\\.nuget\\packages\\nuget.configuration\\6.2.1\\nuget.configuration.6.2.1.nupkg.sha512",
     "C:\\Users\\3 Fingrar\\.nuget\\packages\\nuget.dependencyresolver.core\\5.11.0\\nuget.dependencyresolver.core.5.11.0.nupkg.sha512",

@@ -274,3 +274,5 @@ C:\Users\3 Fingrar\source\repos\CalProTein\bin\Debug\net6.0\Microsoft.Build.Fram
 C:\Users\3 Fingrar\source\repos\CalProTein\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\3 Fingrar\source\repos\CalProTein\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
 C:\Users\3 Fingrar\source\repos\CalProtein\obj\Debug\net6.0\CalProTein.sourcelink.json
+C:\Users\3 Fingrar\source\repos\CalProtein\bin\Debug\net6.0\Npgsql.dll
+C:\Users\3 Fingrar\source\repos\CalProtein\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
