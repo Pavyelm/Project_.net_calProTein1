@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalProTein")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7738405452bb1b18ab7da0960e28da62c35feb88")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalProTein")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalProTein")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

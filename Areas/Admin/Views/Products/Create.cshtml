@@ -55,18 +55,3 @@
         <a asp-action="Index">Back to List</a>
 </div>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-}
-
-<script src="https://cdn.ckeditor.com/4.19.0/standard/ckeditor.js"></script>
-<script>
-        $("#ImageUpload").change(function() {
-                readURL(this);
-        });
-
-        CKEDITOR.replace( 'Description' );
-</script>
-
-}

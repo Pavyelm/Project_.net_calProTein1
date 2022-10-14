@@ -16,7 +16,7 @@
         {
             get { return Quantity * Protein; }
         }
-        public string Image { get; set; }
+       
 
         public CartItem()
         {
@@ -29,7 +29,7 @@
             Cal = (int)product.Cal;
             Protein = (int)product.Protein;
             Quantity = 1;
-            Image = product.Image;
+            
         }
 
     }

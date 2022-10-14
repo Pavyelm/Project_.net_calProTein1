@@ -59,19 +59,7 @@ namespace CalProTein.Areas.Admin.Controllers
                                         return View(product);
                                 }
 
-                                if (product.ImageUpload != null)
-                                {
-                                        string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
-                                        string imageName = Guid.NewGuid().ToString() + "_" + product.ImageUpload.FileName;
-
-                                        string filePath = Path.Combine(uploadsDir, imageName);
-
-                                        FileStream fs = new FileStream(filePath, FileMode.Create);
-                                        await product.ImageUpload.CopyToAsync(fs);
-                                        fs.Close();
-
-                                        product.Image = imageName;
-                                }
+             
 
                                 _context.Add(product);
                                 await _context.SaveChangesAsync();
@@ -110,18 +98,6 @@ namespace CalProTein.Areas.Admin.Controllers
                                         return View(product);
                                 }
 
-                                if (product.ImageUpload != null)
-                                {
-                                        string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
-                                        string imageName = Guid.NewGuid().ToString() + "_" + product.ImageUpload.FileName;
-
-                                        string filePath = Path.Combine(uploadsDir, imageName);
-
-                          
-                                       
-
-                                        product.Image = imageName;
-                                }
 
                                 _context.Update(product);
                                 await _context.SaveChangesAsync();
@@ -135,17 +111,6 @@ namespace CalProTein.Areas.Admin.Controllers
                 public async Task<IActionResult> Delete(long id)
                 {
                         Product product = await _context.Products.FindAsync(id);
-
-                        if (!string.Equals(product.Image, "noimage.png"))
-                        {
-                                string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
-                                string oldImagePath = Path.Combine(uploadsDir, product.Image);
-                                if (System.IO.File.Exists(oldImagePath))
-                                {
-                                        System.IO.File.Delete(oldImagePath);
-                                }
-                        }
-
                         _context.Products.Remove(product);
                         await _context.SaveChangesAsync();
 
